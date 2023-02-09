@@ -70,7 +70,7 @@ if SUDOUSERNAME ~= '' then
 io.write('\n\27[1;34m تم حفظ معرف المطور :\n\27[0;39;49m')
 database:set(id_server..":SUDO:USERNAME",'@'..SUDOUSERNAME)
 else
-print('\n\27[1;34m لم يتم حفظ معرف المطور :')
+print('\n\27[1;34m لم يتم حفظ معرف المطو :')
 end 
 os.execute('lua SNAP.lua')
 end
